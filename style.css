@@ -5,7 +5,7 @@
 body {
   background-color: #0f0e17;
   color: #fffffe;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana;
 }
 
 section {
@@ -17,11 +17,16 @@ section {
 }
 p {
   color: black;
-  padding-bottom: 10px;
+  margin-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 20px;
+  font-size: 12.1px;
+  font-weight: bolder;
 }
 
 nav ul {
   display: inline-block;
+  text-transform: uppercase;
   list-style-type: none;
   text-decoration: none;
   color: white;
@@ -54,4 +59,8 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
